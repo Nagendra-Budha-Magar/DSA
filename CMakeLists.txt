@@ -16,5 +16,7 @@ foreach(file ${CPP_FILES})
             DoublyLinkedList.cpp
             Stack_LinkedList.cpp
             MergeSort.cpp
-            QuickSort.cpp)
+            QuickSort.cpp
+            Advanced_Sorting.cpp
+            QueueLinkedList.cpp)
 endforeach()
