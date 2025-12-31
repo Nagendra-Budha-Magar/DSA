@@ -18,5 +18,6 @@ foreach(file ${CPP_FILES})
             MergeSort.cpp
             QuickSort.cpp
             Advanced_Sorting.cpp
-            QueueLinkedList.cpp)
+            QueueLinkedList.cpp
+            BinarySearch.cpp)
 endforeach()
