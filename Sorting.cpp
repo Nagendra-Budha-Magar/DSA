@@ -2,14 +2,19 @@
 using namespace std;
 
 void BubbleSort(int x[],int size) {
-
+    bool swapped;
     for (int i = 0; i < size - 1; i++ ) {
+        swapped = false;
         for ( int j = 0; j < size-1-i; j++) {
             if (x[j] < x[j+1]) {
                 int temp = x[j];
                 x[j] = x[j+1];
                 x[j+1] = temp;
+                swapped = true;
             }
+        }
+        if(swapped == false){
+            break;
         }
     }
     cout << "Sorted array: ";
